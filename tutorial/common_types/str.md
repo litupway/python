@@ -4,7 +4,7 @@
 
 ## 方法
 
-### [key]（__getitem__）
+### [key]（&lowbar;&lowbar;getitem&lowbar;&lowbar;）
 
 用法
 
@@ -13,6 +13,6 @@ text = "Hello, world!"
 
 print(text[1])
 ```
-（输出：`e`）
+输出：`e`
 
 * `key` 参数要求一个整数或者切片
