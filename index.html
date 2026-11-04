@@ -1,40 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
     <head>
         <meta charset="utf-8">
         <meta
             name="viewport"
             content="width=device-width, initial-scale=1, viewport-fit=cover"
-        >
+        />
         <link
             rel="stylesheet"
-            href="//cdn.jsdelivr.net/npm/docsify/dist/themes/core.min.css"
-        >
+            href="//cdn.jsdelivr.net/npm/docsify@5/dist/themes/core.min.css"
+            media="(prefers-color-scheme: dark)"
+        />
+        <link
+            rel="stylesheet"
+            href="//cdn.jsdelivr.net/npm/docsify@5/dist/themes/addons/core-dark.min.css"
+        />
         <link
             rel="icon"
             type="image/svg+xml"
             href="icon.svg"
-        >
+        />
         <style>
             :root {
                 --theme-color: #008080
             }
+            html {
+                color-scheme: dark;
+            }
         </style>
     </head>
-    <body class="loading">
+    <body class="loading sidebar-chevron-right">
         <div id="app">
             不支持直接打开HTML
         </div>
         <script>
             window.$docsify = {
-                name: 'LitUpWay',
+                name: 'LitUpWay<br><small> (Python)</small>',
                 loadSidebar: true,
+                collapsibleSidebarGroups: true,
+                notFoundPage: true,
                 auto2top: true,
                 autoHeader: true,
                 nativeEmoji: true,
                 search: {
                     noData: "未找到！",
-                    placeholder: "搜索…"
+                    placeholder: "搜索…",
+                    depth: 6
                 }
             };
         </script>

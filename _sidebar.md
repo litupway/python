@@ -1,2 +1,3 @@
 - [首页](/)
-- [判断语句](/ifelse)
+- **基础类型**
+    - [字符串](tutorial/common_types/str.md)
