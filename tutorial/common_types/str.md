@@ -1,5 +1,4 @@
 # 字符串
-<link rel="stylesheet" href="/python/parse.css"/>
 
 <strong>字符串（String）</strong>是 Python 里最常见且最基础的类型之一。
 
@@ -27,3 +26,5 @@
 ``` 控制台
 我的名字是 MBLC7！
 ```
+
+<link rel="stylesheet" href="/python/parse.css"/>
