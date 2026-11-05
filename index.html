@@ -7,11 +7,38 @@
         <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@5/dist/themes/addons/core-dark.min.css"/>
         <link rel="icon" type="image/svg+xml" href="icon.svg"/>
         <style>
+            @font-face {
+                font-family: 'Consolas';
+                src: url('./python/fonts/consola.woff2') format('woff2');
+                font-weight: normal;
+                font-style: normal;
+            }
+            @font-face {
+                font-family: 'Consolas';
+                src: url('./python/fonts/consolab.woff2') format('woff2');
+                font-weight: bold;
+                font-style: normal;
+            }
+            @font-face {
+                font-family: 'Consolas';
+                src: url('./python/fonts/consolai.woff2') format('woff2');
+                font-weight: normal;
+                font-style: italic;
+            }
+            @font-face {
+                font-family: 'Consolas';
+                src: url('./python/fonts/consolaz.woff2') format('woff2');
+                font-weight: bold;
+                font-style: italic;
+            }
             :root {
                 --theme-color: #008080
             }
             html {
                 color-scheme: dark;
+            }
+            code {
+                font-family: 'Consolas', monospace !important;
             }
         </style>
     </head>

@@ -6,6 +6,10 @@
     color: #9ecbff;
 }
 
+.sel {
+    border: 1px solid #1f7578;
+}
+
 .key {
     color: #f97580;
 }
