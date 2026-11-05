@@ -34,6 +34,9 @@
             :root {
                 --theme-color: #008080
             }
+            .search .matching-post .path {
+                display: none !important;
+            }
             html {
                 color-scheme: dark;
             }
@@ -56,11 +59,7 @@
                 search: {
                     noData: "未找到！",
                     placeholder: "搜索…",
-                    depth: 6,
-                    paths: [
-                        '/README',
-                        '/tutorial'
-                    ]
+                    depth: 6
                 }
             };
         </script>
