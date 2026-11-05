@@ -5,7 +5,7 @@
 ## f-string
 
 <div class="msg msg-info">
-    <div style="margin-right: 10px;">
+    <div style="display: flex; margin-right: 10px; align-items: center;">
         <img src="/python/assets/python/3.6.svg" width="45px">
     </div>
     <div style="flex: 1;">
