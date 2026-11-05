@@ -5,7 +5,7 @@
 
 # 字符串
 
-**字符串（String）**是 Python 里最常见且最基础的类型之一。
+<strong>字符串（String）</strong>是 Python 里最常见且最基础的类型之一。
 
 ## f-string
 
