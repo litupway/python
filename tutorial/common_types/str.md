@@ -5,8 +5,8 @@
 ## f-string
 
 <div class="msg msg-info">
-    <div style="margin: 10px;">
-        <img src="/python/assets/python/3.6.svg" width="45px">
+    <div style="margin-right: 10px;">
+        <img src="/python/assets/python/3.6.svg" width="25px">
     </div>
     <div style="flex: 1;">
         <strong>此特性只支持 Python 3.6+</strong><br/>
