@@ -1,0 +1,23 @@
+.fun {
+    color: #b392f0;
+}
+
+.str {
+    color: #9ecbff;
+}
+
+.key {
+    color: #f97580;
+}
+
+.con {
+    color: #79b8ff;
+}
+
+.spc {
+    color: #f8ab70
+}
+
+.com {
+    color: #6a737d;
+}
