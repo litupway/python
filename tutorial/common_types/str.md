@@ -5,8 +5,13 @@
 ## f-string
 
 <div class="msg msg-info">
-    <strong>此特性只支持 Python 3.6+</strong><br/>
-    Python 3.6 或低于请使用 format！
+    <div>
+        <img src="/python/assets/python/3.6.svg" width="25px">
+    </div>
+    <div style="flex: 1;">
+        <strong>此特性只支持 Python 3.6+</strong><br/>
+        Python 3.6 或低于请使用 format！
+    </div>
 </div>
 
 **f-string**，正式名称**格式化字符串常量（Formatted String Literals）**，是 Python 3.6 发布为了替代 format 的语法。
