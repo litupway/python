@@ -1,6 +1,5 @@
-<link rel="stylesheet" href="/python/parse.css"/>
-
 # 字符串
+<link rel="stylesheet" href="/python/parse.css"/>
 
 <strong>字符串（String）</strong>是 Python 里最常见且最基础的类型之一。
 
