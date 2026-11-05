@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/parse.css"/>
+<link rel="stylesheet" href="/python/parse.css"/>
 
 # 字符串
 
