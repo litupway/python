@@ -6,7 +6,7 @@
 
 <div class="msg msg-info">
     <div style="margin-right: 10px;">
-        <img src="/python/assets/python/3.6.svg" width="32px">
+        <img src="/python/assets/python/3.6.svg" width="45px">
     </div>
     <div style="flex: 1;">
         <strong>此特性只支持 Python 3.6+</strong><br/>
