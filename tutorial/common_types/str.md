@@ -1,7 +1,4 @@
-<link
-    rel="stylesheet"
-    href="/python/parse.css"
-/>
+<link rel="stylesheet" href="/parse.css"/>
 
 # 字符串
 
@@ -9,8 +6,10 @@
 
 ## f-string
 
-> [!INFO]
-> 此特性只支持 Python 3.6+<br>Python 3.6 或低于请使用 format！
+<div class="msg msg-info">
+    <strong>此特性只支持 Python 3.6+</strong><br/>
+    Python 3.6 或低于请使用 format！
+</div>
 
 **f-string**，正式名称**格式化字符串常量（Formatted String Literals）**，是 Python 3.6 发布为了替代 format 的语法。
 
@@ -22,7 +21,7 @@
 
 <pre class="language-Python" data-lang="Python"><code class="lang-Python language-Python" tabindex="0">name <span class="key">=</span> <span class="str">"MBLC7"</span>
 
-<span class="fun">print</span><span class="con">(</span><span class="key">f</span><span class="str">"我的名字是 </span><span class="spc">{</span>name<span class="spc">}</span><span class="str">!"</span><span class="con">)</span></code></pre>
+<span class="fun">print</span><span class="con">(</span><span class="key">f</span><span class="str">"我的名字是 </span><span class="spc">{</span>name<span class="spc">}</span><span class="str">！"</span><span class="con">)</span></code></pre>
 
 **输出**
 
